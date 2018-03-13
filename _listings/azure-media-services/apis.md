@@ -26,7 +26,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-regeneratekey-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-listkeys-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/media-services/
