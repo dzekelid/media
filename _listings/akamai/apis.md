@@ -33,7 +33,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/config-media-security-v1-security-regions-countrycode-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/config-media-security-v1-security-acgs-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
