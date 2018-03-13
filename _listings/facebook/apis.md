@@ -36,7 +36,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/facebook/instagram-media-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/facebook/media-fingerprint-id-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
