@@ -24,8 +24,8 @@ tags:
 - Images
 - Change Log Example
 - Change Log
-created: "2018-02-25"
-modified: "2018-02-25"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/instagram/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -40,7 +40,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/instagram/geographies-geo-id-media-recent-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/instagram/media1-shortcode-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
