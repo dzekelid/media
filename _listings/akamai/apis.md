@@ -33,7 +33,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/media-reports-v1-download-delivery-metrics-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/media-reports-v1-object-delivery-metrics-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
