@@ -29,7 +29,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/weather-underground/radarfeature-image-mediatypeextension-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/weather-underground/radarfeature-q-query-mediatypeextension-get.md
 x-common:
 - type: x-application-gallery
   url: http://www.wunderground.com/weather/api/d/featured_applications.html
