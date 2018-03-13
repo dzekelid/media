@@ -33,7 +33,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/config-media-live-v1-live-domain-stream-streamid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/config-media-live-v1-live-domain-stream-streamid-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
