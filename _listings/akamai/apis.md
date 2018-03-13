@@ -33,7 +33,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/media-reports-v1-media-services-live-http-ingest-metrics-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/akamai/media-reports-v1-media-services-live-rtmp-ingest-dimensions-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
