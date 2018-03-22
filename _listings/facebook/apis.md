@@ -22,9 +22,9 @@ tags:
 - Issues
 - Indie EdTech Data Jam
 - Facebook Stack
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/facebook/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/facebook/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Facebook
@@ -36,7 +36,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/facebook/media-fingerprint-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/facebook/instagram-media-id-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
