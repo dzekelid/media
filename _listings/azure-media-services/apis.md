@@ -26,7 +26,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/azure-media-services/subscriptions-subscriptionid-providers-microsoft-media-checknameavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/media-services/
