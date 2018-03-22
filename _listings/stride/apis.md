@@ -10,9 +10,9 @@ x-alexaRank: ""
 tags:
 - Messaging
 - Chat
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/stride/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Stride
@@ -24,7 +24,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/stride/site-cloudid-conversation-conversationid-media-mediaid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/site-cloudid-conversation-conversationid-media-post.md
 x-common:
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
