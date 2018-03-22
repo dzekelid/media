@@ -24,7 +24,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/site-cloudid-conversation-conversationid-media-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/site-cloudid-conversation-conversationid-media-mediaid-get.md
 x-common:
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
