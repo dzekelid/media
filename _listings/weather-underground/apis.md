@@ -15,8 +15,8 @@ tags:
 - Weather
 - Stack Network
 - Plans
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/radarsattelitefeatures-q-query-mediatypeextension-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/radarfeature-image-mediatypeextension-get.md
 x-common:
 - type: x-application-gallery
   url: http://www.wunderground.com/weather/api/d/featured_applications.html
