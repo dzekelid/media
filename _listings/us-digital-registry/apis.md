@@ -12,8 +12,8 @@ x-alexaRank: ""
 tags:
 - Stack Network
 - Federal Government   GSA
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -26,7 +26,7 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/social-media-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/social-media-verify-json-get.md
 x-common:
 - type: x-website
   url: https://usdigitalregistry.digitalgov.gov
