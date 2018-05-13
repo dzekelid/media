@@ -27,19 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/youtube/v1-media-resourcename-parameters.md
-- name: Youtube Get Media Resource Name
-  description: |-
-    Method for media download. Download is supported
-    on the URI `/v1/media/{+name}?alt=media`.
+- name: Youtube Parameters Media Resource Name
+  description: Parameters v1 media resourcename
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/youtube/v1-media-resourcename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/youtube/v1-media-resourcename-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/youtube/v1-media-resourcename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/youtube/v1-media-resourcename-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
