@@ -33,7 +33,24 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/blog-pagename-mediatypeextension-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/blog-pagename-mediatypeextension-get-postman.md
+- name: Healthcare.gov GetBlog Page Name Media Type Extension
+  description: Returns pages content.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png
+  humanURL: http://www.healthcare.gov
+  baseURL: https://www.healthcare.gov//
+  tags: Media
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/es-blog-pagename-mediatypeextension-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/es-blog-pagename-mediatypeextension-get-postman.md
 x-common:
+- type: x-developer
+  url: http://www.healthcare.gov/developers
+- type: x-website
+  url: http://www.healthcare.gov
+- type: x-wikipedia
+  url: http://en.wikipedia.org/wiki/Healthcare.gov
 - type: x-developer
   url: http://www.healthcare.gov/developers
 - type: x-website
