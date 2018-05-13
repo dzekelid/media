@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/media-reports-v1-download-delivery-dimensions-get.md
-- name: Akamai API Modify a Policy
-  description: Modify a Policy
+- name: Akamai API Mark a Policy for Deletion
+  description: Mark a Policy for Deletion
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/config-media-security-v1-security-policyid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/config-media-security-v1-security-policyid-delete.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
