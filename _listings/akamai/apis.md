@@ -43,15 +43,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/config-media-security-v1-security-policyid-environment-get.md
-- name: Akamai API Restore a Policy Edit
-  description: Restore a Policy Edit
+- name: Akamai API Get an HD Config Policy
+  description: Get an HD Config Policy
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/config-media-security-v1-security-policyid-revertedit-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/config-media-security-v1-security-live-domain-policy-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
