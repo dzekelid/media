@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/media-reports-v1-download-delivery-dimensions-get.md
-- name: Akamai API List RTMP Ingest Dimensions
-  description: List RTMP Ingest Dimensions
+- name: Akamai API List RTMP Ingest Metrics
+  description: List RTMP Ingest Metrics
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/media-reports-v1-media-services-live-rtmp-ingest-dimensions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/media-reports-v1-media-services-live-rtmp-ingest-metrics-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
