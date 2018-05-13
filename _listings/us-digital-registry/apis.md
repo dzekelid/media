@@ -28,15 +28,14 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/social-media-id-json-get.md
 - name: U.S. Digital Registry Social Media API Social Media
-  description: This lists all active accounts. It accepts parameters to perform basic
-    search as well as search by service, agency, or tags.
+  description: This returns an agency based on an ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/digital-gov-logo.jpeg
   humanURL: https://usdigitalregistry.digitalgov.gov
   baseURL: https://usdigitalregistry.digitalgov.gov//api/v1
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/social-media-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/social-media-id-json-get.md
 x-common:
 - type: x-website
   url: https://usdigitalregistry.digitalgov.gov
