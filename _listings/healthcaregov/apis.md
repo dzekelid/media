@@ -33,7 +33,7 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/blog-pagename-mediatypeextension-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/blog-pagename-mediatypeextension-get-postman.md
-- name: Healthcare.gov Get Glossary Page Name Media Type Extension
+- name: Healthcare.gov Get Question Page Name Media Type Extension
   description: Returns pages content.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png
   humanURL: http://www.healthcare.gov
@@ -41,9 +41,9 @@ apis:
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/glossary-pagename-mediatypeextension-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/question-pagename-mediatypeextension-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/glossary-pagename-mediatypeextension-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcaregov/question-pagename-mediatypeextension-get-postman.md
 x-common:
 - type: x-developer
   url: http://www.healthcare.gov/developers
