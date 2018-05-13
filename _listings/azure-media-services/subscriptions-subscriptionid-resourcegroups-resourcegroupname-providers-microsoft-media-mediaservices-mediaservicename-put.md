@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: MediaServicesManagementClient
-  description: Media Services resource management APIs.
+  title: Azure Media Services API Media Service Create
+  description: Creates a Media Service.
   version: 1.0.0
 host: management.azure.com
 basePath: /
