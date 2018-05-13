@@ -27,7 +27,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/social-media-id-json-get.md
+- name: U.S. Digital Registry Social Media API Social Media Verify
+  description: This returns an agency based on an URL. If not found, it will return
+    a 404
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/digital-gov-logo.jpeg
+  humanURL: https://usdigitalregistry.digitalgov.gov
+  baseURL: https://usdigitalregistry.digitalgov.gov//api/v1
+  tags: Media
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/us-digital-registry/social-media-verify-json-get.md
 x-common:
+- type: x-website
+  url: https://usdigitalregistry.digitalgov.gov
 - type: x-website
   url: https://usdigitalregistry.digitalgov.gov
 include: []
