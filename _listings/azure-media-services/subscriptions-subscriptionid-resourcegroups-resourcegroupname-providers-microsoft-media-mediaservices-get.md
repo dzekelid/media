@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: MediaServicesManagementClient
-  description: Media Services resource management APIs.
+  title: Azure Media Services API Media Service List By Resource Group
+  description: Lists all of the Media Services in a resource group.
   version: 1.0.0
 host: management.azure.com
 basePath: /
