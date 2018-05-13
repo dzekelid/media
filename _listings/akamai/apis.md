@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/media-reports-v1-download-delivery-dimensions-get.md
-- name: Akamai API Get an Event
-  description: Get an Event
+- name: Akamai API Modify an Event
+  description: Modify an Event
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/config-media-live-v1-live-domain-stream-streamid-event-eventname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/akamai/config-media-live-v1-live-domain-stream-streamid-event-eventname-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
