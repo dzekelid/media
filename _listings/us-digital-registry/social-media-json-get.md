@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: U.S. Digital Registry Social Media API
-  description: Provides access to the social media accounts for top federal agencies.
+  title: U.S. Digital Registry Social Media API Social Media
+  description: This lists all active accounts. It accepts parameters to perform basic
+    search as well as search by service, agency, or tags.
   version: 1.0.0
 host: usdigitalregistry.digitalgov.gov
 basePath: /api/v1
