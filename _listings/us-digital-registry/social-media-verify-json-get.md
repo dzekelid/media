@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: U.S. Digital Registry Social Media API
-  description: Provides access to the social media accounts for top federal agencies.
+  title: U.S. Digital Registry Social Media API Social Media Verify
+  description: This returns an agency based on an URL. If not found, it will return
+    a 404
   version: 1.0.0
 host: usdigitalregistry.digitalgov.gov
 basePath: /api/v1
