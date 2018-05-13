@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Weather Underground
-  description: Real-time weather information via the Internet.
+  title: Weather Underground Get Radar Feature Query Media Type Extension
+  description: Get radarfeature q query mediatypeextension
   version: v1
 host: api.wunderground.com
 basePath: /api/DefaultParameterValue/
