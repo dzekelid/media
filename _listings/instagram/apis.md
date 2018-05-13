@@ -41,15 +41,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/media1-shortcode-get.md
-- name: Instagram Instagram Media Comments
-  description: Instagram Media Comments
+- name: Instagram Instagram Media
+  description: Instagram Media
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/#123;instagram-media-id-#125;-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/#123;instagram-media-id-#125;-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
