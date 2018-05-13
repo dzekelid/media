@@ -30,17 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/radarsattelitefeatures-q-query-mediatypeextension-get.md
-- name: Weather Underground Get Radar Feature Query Media Type Extension
-  description: Get radarfeature q query mediatypeextension
+- name: Weather Underground Get Satellite Feature Image Media Type Extension
+  description: Get sattelitefeature image mediatypeextension
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/966_logo.png
   humanURL: http://www.wunderground.com
   baseURL: https://api.wunderground.com//api/DefaultParameterValue/
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/radarfeature-q-query-mediatypeextension-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/sattelitefeature-image-mediatypeextension-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/radarfeature-q-query-mediatypeextension-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/weather-underground/sattelitefeature-image-mediatypeextension-get-postman.md
 x-common:
 - type: x-application-gallery
   url: http://www.wunderground.com/weather/api/d/featured_applications.html
