@@ -27,16 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-syncstoragekeys-post.md
-- name: Azure Media Services API Media Service Check Name Availability
-  description: Checks whether the Media Service resource name is available. The name
-    must be globally unique.
+- name: Azure Media Services API Media Service List By Resource Group
+  description: Lists all of the Media Services in a resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
   baseURL: http:://management.azure.com//
   tags: Media
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/azure-media-services/subscriptions-subscriptionid-providers-microsoft-media-checknameavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/media-services/
