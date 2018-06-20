@@ -1,27 +1,87 @@
 ---
 name: CallFire
-description: CallFire is a cloud-based telephony company that provides voice and text
-  connectivity services. It offers the necessary tools for businesses to communicate
-  and market effectively. The company works to provide a diverse line of innovative
-  products that enable its users to get their messages delivered.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+x-slug: callfire
+description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+  mass text messaging services and power dialing. Try CallFire for FREE!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Voice
-- Telco
-- Stack Network
-- SMS
-- Partners
-- Messaging
-- Getting Started
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "129466"
+tags: Media
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Callfire Create media
+  x-api-slug: callfire
+  description: 'Uploads media file to account, acceptable media formats: bmp, gif,
+    jpg, m4a, mp3, mp4, png, wav'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//media
+  tags: Media
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/media-post-openapi.md
+- name: Callfire Download media by extension
+  x-api-slug: callfire
+  description: 'Download a media file. Available types of files: bmp, gif, jpg, m4a,
+    mp3, mp4, png, wav. Content type in response depends on ''extension'' parameter,
+    e.g. image/jpeg, image/png, audio/mp3, etc'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//media/public/{key}.{extension}
+  tags: Media,Public,Key.extension
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/mediapublickey-extension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/mediapublickey-extension-get-openapi.md
+- name: Callfire Get a specific media
+  x-api-slug: callfire
+  description: Get media resource by id
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//media/{id}
+  tags: Media
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/mediaid-get-openapi.md
+- name: Callfire Download media by extension
+  x-api-slug: callfire
+  description: 'Download a media file. Available types of files: bmp, gif, jpg, m4a,
+    mp3, mp4, png, wav. Content type in response depends on ''extension'' parameter,
+    e.g. image/jpeg, image/png, audio/mp3, etc'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//media/{id}.{extension}
+  tags: Media,Extensions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/mediaid-extension-get-openapi.md
+- name: Callfire Download a MP3 media
+  x-api-slug: callfire
+  description: Download a MP3 media, endpoint returns application/binary content-type
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//media/{id}/file
+  tags: Media,File
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/mediaidfile-get-openapi.md
+- name: Callfire
+  x-api-slug: callfire
+  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+    mass text messaging services and power dialing. Try CallFire for FREE!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: Media
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/callfire/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
 - type: x-account-billing
   url: https://answers.callfire.com/hc/en-us/sections/200166268-Billing
@@ -43,12 +103,16 @@ x-common:
   url: https://www.callfire.com/contact
 - type: x-crunchbase
   url: https://www.crunchbase.com/organization/callfire
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/callfire
 - type: x-developer
   url: https://www.callfire.com/api-documentation
 - type: x-documentation
   url: https://www.callfire.com/api-documentation/rest/version/1.1
 - type: x-drupal-plugin
   url: https://github.com/CallFire/CallFire-Drupal-Integration
+- type: x-email
+  url: answers@callfire.com
 - type: x-email
   url: support@callfire.com
 - type: x-facebook
