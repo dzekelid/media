@@ -4,7 +4,7 @@ description: This is a repository of media APIs, self-contained as a Github repo
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/media.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://media.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -30,10 +30,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/google-plus/apis.yaml
 - name: Stride
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/apis.yaml
-- name: Healthcare.gov
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcare-gov/apis.yaml
 - name: Eventbrite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/eventbrite/apis.yaml
+- name: Healthcare.gov
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/healthcare-gov/apis.yaml
 - name: Dropbox
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/apis.yaml
 - name: Dropbox
