@@ -7,120 +7,120 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Media
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spreaker API Get Episode Media List
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Episode Media List
+  x-api-slug: episodeepisode-idmedia-get
   description: Get Episode Media List
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////episode/{episode_id}/media
-  tags: Episode,Media,List
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/episodeepisode-idmedia-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/episodeepisode-idmedia-get-openapi.md
-- name: Spreaker API Create Media
-  x-api-slug: spreaker-api
+- name: Spreaker API - Create Media
+  x-api-slug: libraryuser-id-post
   description: Upload a new Media in the specified user library
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////library/{user_id}
-  tags: Media
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-id-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-id-post-openapi.md
-- name: Spreaker API Get Owned Media
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Owned Media
+  x-api-slug: libraryuser-ideffectsowned-get
   description: Get a paginated list of media owned by <user_id> filtered by type:.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////library/{user_id}/effects/owned
-  tags: Owned,Media
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-ideffectsowned-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-ideffectsowned-get-openapi.md
-- name: Spreaker API Get Owned Media
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Owned Media
+  x-api-slug: libraryuser-idjinglesowned-get
   description: Get a paginated list of media owned by <user_id> filtered by type:.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////library/{user_id}/jingles/owned
-  tags: Owned,Media
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idjinglesowned-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idjinglesowned-get-openapi.md
-- name: Spreaker API Get Owned Media
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Owned Media
+  x-api-slug: libraryuser-idloopsowned-get
   description: Get a paginated list of media owned by <user_id> filtered by type:.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////library/{user_id}/loops/owned
-  tags: Owned,Media
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idloopsowned-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idloopsowned-get-openapi.md
-- name: Spreaker API Get Owned Media
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Owned Media
+  x-api-slug: libraryuser-idsongsowned-get
   description: Get a paginated list of media owned by <user_id> filtered by type:.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////library/{user_id}/songs/owned
-  tags: Owned,Media
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idsongsowned-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idsongsowned-get-openapi.md
-- name: Spreaker API Get Owned Media
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Owned Media
+  x-api-slug: libraryuser-idsoundtracksowned-get
   description: Get a paginated list of media owned by <user_id> filtered by type:.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////library/{user_id}/soundtracks/owned
-  tags: Owned,Media
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idsoundtracksowned-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/libraryuser-idsoundtracksowned-get-openapi.md
-- name: Spreaker API Get Media
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Media
+  x-api-slug: mediamedia-id-get
   description: Retrieves a Media by unique identifier.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////media/{media_id}
-  tags: Media
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/mediamedia-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/mediamedia-id-get-openapi.md
-- name: Spreaker API
-  x-api-slug: spreaker-api
-  description: Spreaker platform enables you to host and listen thousands of radio
-    shows. Spreaker provides a REST web service that enables developers to read and
-    write data to Spreaker.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
-  humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com//
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/spreaker/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://spotify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spreaker.stack.network
 - type: x-base
   url: http://api.spreaker.com/
 - type: x-blog

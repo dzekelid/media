@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: HHS Media Services
 x-complete: 1
@@ -566,18 +565,6 @@ paths:
       - Media
       - Id
       - YoutubeMetaData
-  /resources/mediaTypes.json:
-    get:
-      summary: Get MediaTypes
-      description: Returns the list of available MediaTypes.
-      operationId: getMediaTypes
-      x-api-path-slug: resourcesmediatypes-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Resources
-      - MediaTypes
   /resources/tags/{id}/media.json:
     get:
       summary: Get MediaItems for Tag
@@ -606,24 +593,3 @@ paths:
       - Tags
       - Id
       - Media
-  /resources/userMediaLists/{id}.json:
-    get:
-      summary: Get UserMediaList by ID
-      description: Get a specific user media list by 'id'.
-      operationId: getUserMediaList
-      x-api-path-slug: resourcesusermedialistsid-json-get
-      parameters:
-      - in: query
-        name: displayMethod
-        description: Method used to render an html request
-      - in: path
-        name: id
-        description: The id of the record to look up
-      responses:
-        200:
-          description: OK
-      tags:
-      - Resources
-      - UserMediaLists
-      - Id
----

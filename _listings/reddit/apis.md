@@ -1,39 +1,22 @@
 ---
 name: Reddit
-description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social networking
-  service and news website where registered community members can submit content,
-  such as text posts or direct links. Only registered users can then vote submissions
-  up or down to organize the posts and determine their position on the sites pages.
-  Content entries are organized by areas of interest called subreddits.
-image: http://www.redditstatic.com/about/assets/reddit-logo.png
+x-slug: reddit
+description: Reddit is a community of millions of users engaging in the creation of
+  content and the sharing of conversation across tens of thousands of topics.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Social
-- Social
-- My API Stack
-- Media
-- Links
-- Evangelism
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/reddit/apis.yaml
+x-alexaRank: "6"
+tags: Media
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Reddit
-  description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social
-    networking service and news website where registered community members can submit
-    content, such as text posts or direct links
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
-  humanURL: ""
-  baseURL: https://www.reddit.com//
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/reddit/r-subreddit-wiki-page-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://rebilly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reddit.stack.network
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
 - type: x-base
@@ -50,10 +33,16 @@ x-common:
   url: https://github.com/reddit/reddit/wiki/API-Wrappers
 - type: x-console
   url: https://apigee.com/console/reddit
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/reddit
 - type: x-developer
   url: http://www.reddit.com/dev/api
+- type: x-email
+  url: legal@reddit.com
 - type: x-github
   url: https://github.com/reddit
+- type: x-linkedin
+  url: https://www.linkedin.com/company/product-hunt/
 - type: x-privacy
   url: https://www.reddit.com/help/privacypolicy
 - type: x-security

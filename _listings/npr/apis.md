@@ -1,37 +1,23 @@
 ---
 name: NPR
+x-slug: npr
 description: NPR delivers breaking national and world news. Also top stories from
   business, politics, health, science, technology, music, arts and culture. Subscribe
   to podcasts and RSS feeds.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
 x-kinRank: "9"
-x-alexaRank: "641"
-tags:
-- Stack Network
-- Stack
-- Radio
-- Publishing
-- News
-- Mobile
-- Media
-- Getting Started
-- Federal Government
-- Broadcasting
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/npr/apis.yaml
+x-alexaRank: "598"
+tags: Media
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/npr/apis.md
 specificationVersion: "0.14"
-apis:
-- name: NPR
-  description: NPR delivers breaking national and world news
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: ""
-  baseURL: https://api.npr.org//
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/npr/stationfinder-v3-stations-stationid-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://nfusion.solutions.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://npr.stack.network
 - type: x-base
   url: http://api.npr.org/
 - type: x-codecademy
@@ -64,6 +50,8 @@ x-common:
   url: giving@npr.org
 - type: x-email
   url: giftplanning@npr.org
+- type: x-email
+  url: NPRDonorCommunications@npr.org
 - type: x-getting-started
   url: http://dev.npr.org/#quick-start
 - type: x-github
@@ -76,6 +64,8 @@ x-common:
   url: https://twitter.com/NPR
 - type: x-twitter
   url: https://twitter.com/NPRTechTeam
+- type: x-website
+  url: http://npr.org
 - type: x-website
   url: http://www.npr.org
 include: []

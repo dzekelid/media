@@ -9,45 +9,38 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stri
 x-kinRank: "8"
 x-alexaRank: "40723"
 tags: Media
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stride Upload a file
-  x-api-slug: stride
+- name: Stride - Upload a file
+  x-api-slug: sitecloudidconversationconversationidmedia-post
   description: Authentication required, with scope participate:conversation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
-  humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/media
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/sitecloudidconversationconversationidmedia-post-openapi.md
-- name: Stride Get a file
-  x-api-slug: stride
-  description: Authentication required, with scope participate:conversation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
-  humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/media/{mediaId}
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Media, Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/sitecloudidconversationconversationidmediamediaid-get-openapi.md
-- name: Stride
-  x-api-slug: stride
-  description: Stride is a cloud-based team business communication and collaboration
-    tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
-    software is available to download onto computers running Windows, Mac or Linux,
-    as well as Android, iOS smartphones, and tablets
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
   baseURL: https://api.atlassian.com//
-  tags: Media
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/sitecloudidconversationconversationidmedia-post-openapi.md
+- name: Stride - Get a file
+  x-api-slug: sitecloudidconversationconversationidmediamediaid-get
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/stride/sitecloudidconversationconversationidmediamediaid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://strava.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stride.stack.network
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
 - type: x-blog

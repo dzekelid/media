@@ -29,6 +29,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Episode
       - Media
       - List
@@ -59,6 +60,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Media
 x-streamrank:
   polling_total_time_average: 0

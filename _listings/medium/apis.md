@@ -1,32 +1,23 @@
 ---
 name: Medium
+x-slug: medium
 description: Medium is an online publishing platform founded by Twitter co-founder
   Evan Williams in August 2012. The platform has evolved into a hybrid of non-professional
   contributions and professional, paid contributions, an example of social journalism.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Media
-- Communications
-- Blogging
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/medium/apis.yaml
+x-alexaRank: "0"
+tags: Media
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/medium/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Medium
-  description: Medium is an online publishing platform founded by Twitter co-founder
-    Evan Williams in August 2012
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png
-  humanURL: ""
-  baseURL: https://api.medium.com//v1
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/medium/users-userid-publications-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://mattermost.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://medium.stack.network
 - type: x-github
   url: https://github.com/Medium
 - type: x-transparency-report

@@ -7,95 +7,94 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-frames
 x-kinRank: "8"
 x-alexaRank: "5719311"
 tags: Media
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Framesocket Activate Media
-  x-api-slug: framesocket
+- name: Framesocket - Activate Media
+  x-api-slug: mediaactivate-php-get
   description: Activate Media
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
   humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api//media/activate.php
-  tags: Media,Activate
+  baseURL: ://www.framesocket.com//api
+  tags: Hosting, Mobile, Stack Network, Technology, SaaS, internet, API Provider,
+    Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaactivate-php-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaactivate-php-get-openapi.md
-- name: Framesocket Deactive Media
-  x-api-slug: framesocket
+- name: Framesocket - Deactive Media
+  x-api-slug: mediadeactivate-php-get
   description: Deactive Media
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
   humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api//media/deactivate.php
-  tags: Media,Deactivate
+  baseURL: ://www.framesocket.com//api
+  tags: Hosting, Mobile, Stack Network, Technology, SaaS, internet, API Provider,
+    Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediadeactivate-php-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediadeactivate-php-get-openapi.md
-- name: Framesocket Query Images
-  x-api-slug: framesocket
+- name: Framesocket - Query Images
+  x-api-slug: mediaimages-php-get
   description: Query Images
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
   humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api//media/images.php
-  tags: Media,Images
+  baseURL: ://www.framesocket.com//api
+  tags: Hosting, Mobile, Stack Network, Technology, SaaS, internet, API Provider,
+    Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaimages-php-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaimages-php-get-openapi.md
-- name: Framesocket Query Media
-  x-api-slug: framesocket
+- name: Framesocket - Query Media
+  x-api-slug: mediaquery-php-get
   description: Query Media
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
   humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api//media/query.php
-  tags: Media,Query
+  baseURL: ://www.framesocket.com//api
+  tags: Hosting, Mobile, Stack Network, Technology, SaaS, internet, API Provider,
+    Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaquery-php-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaquery-php-get-openapi.md
-- name: Framesocket Update Media
-  x-api-slug: framesocket
+- name: Framesocket - Update Media
+  x-api-slug: mediaupdate-php-get
   description: Update Media
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
   humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api//media/update.php
-  tags: Media,Update
+  baseURL: ://www.framesocket.com//api
+  tags: Hosting, Mobile, Stack Network, Technology, SaaS, internet, API Provider,
+    Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaupdate-php-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaupdate-php-get-openapi.md
-- name: Framesocket Upload Media
-  x-api-slug: framesocket
+- name: Framesocket - Upload Media
+  x-api-slug: mediaupload-php-post
   description: Upload Media
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
   humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api//media/upload.php
-  tags: Media,Upload
+  baseURL: ://www.framesocket.com//api
+  tags: Hosting, Mobile, Stack Network, Technology, SaaS, internet, API Provider,
+    Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaupload-php-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/mediaupload-php-post-openapi.md
-- name: Framesocket
-  x-api-slug: framesocket
-  description: framesocket is the best way for developers and content owners to tackle
-    video projects of any size.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
-  humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/framesocket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://foursquare.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://framesocket.stack.network
 - type: x-base
   url: http://www.framesocket.com/api/
 - type: x-blog

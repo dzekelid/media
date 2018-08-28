@@ -1,37 +1,26 @@
 ---
 name: Wikipedia
-description: Wikipedia is a Wikimedia Foundation project to build free encyclopedias
-  in all languages of the world. Virtually anyone with Internet access is free to
-  contribute, by contributing neutral, cited information. As of March 2008 Wikipedia
-  is offered in 250 languages.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/144_logo.png
+x-slug: wikipedia
+description: Wikipedia is a free online encyclopedia, created and edited by volunteers
+  around the world and hosted by the Wikimedia Foundation.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/144-wikipedia.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Wiki
-- Stack Network
-- Stack
-- Media
-- Imports
-- Content
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/wikipedia/apis.yaml
+x-alexaRank: "5"
+tags: Media
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/wikipedia/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Wikipedia
-  description: Wikipedia is a Wikimedia Foundation project to build free encyclopedias
-    in all languages of the world
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/144_logo.png
-  humanURL: ""
-  baseURL: https://wikimedia.org//api/rest_v1
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/wikipedia/transform-word-from-from-lang-to-to-lang-word-provider-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://webtris.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://wikipedia.stack.network
 - type: x-base
   url: http://en.wikipedia.org/w/api.php
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/wikipedia
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/wikipedia
 - type: x-developer
@@ -46,6 +35,8 @@ x-common:
   url: https://twitter.com/wikipedia
 - type: x-website
   url: https://www.wikipedia.org/
+- type: x-website
+  url: http://wikipedia.org
 include: []
 maintainers:
 - FN: Kin Lane

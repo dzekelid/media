@@ -1,5 +1,6 @@
 ---
 name: Flickr
+x-slug: flickr
 description: Flickr (pronounced flicker) is an image hosting and video hosting website,
   and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo
   in 2005. In addition to being a popular website for users to share and embed personal
@@ -8,35 +9,18 @@ description: Flickr (pronounced flicker) is an image hosting and video hosting w
   media.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Photos
-- Photo API
-- Photo
-- My API Stack
-- Media
-- Imports
-- Images
-- Getting Started
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/flickr/apis.yaml
+x-alexaRank: "0"
+tags: Media
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Flickr
-  description: Flickr (pronounced flicker) is an image hosting and video hosting website,
-    and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo
-    in 2005
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: ""
-  baseURL: ://api.flickr.com//services
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/flickr/upload-post.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://flat.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://flickr.stack.network
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
 - type: x-base
@@ -55,6 +39,8 @@ x-common:
   url: https://twitter.com/flickr
 - type: x-website
   url: http://www.flickr.com/
+- type: x-website
+  url: http://flickr.com
 include: []
 maintainers:
 - FN: Kin Lane

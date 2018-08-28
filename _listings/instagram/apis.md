@@ -17,19 +17,6 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instagram Graph API - Instagram Media
-  x-api-slug: 123instagrammediaid125-get
-  description: Instagram Media
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
-  humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0
-  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
-    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
-    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/123instagrammediaid125-get-openapi.md
 - name: Instagram Graph API - Instagram Media Comments
   x-api-slug: 123instagrammediaid125comments-get
   description: Instagram Media Comments
@@ -43,6 +30,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/123instagrammediaid125comments-get-openapi.md
+- name: Instagram Graph API - Instagram Media
+  x-api-slug: 123instagrammediaid125-get
+  description: Instagram Media
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
+  humanURL: http://instagram.com
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/123instagrammediaid125-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://infermedica.api.gallery.streamdata.io

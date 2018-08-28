@@ -29,6 +29,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Episode
       - Media
       - List
@@ -59,6 +60,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Media
   /library/{user_id}/effects/owned:
     get:
@@ -80,6 +82,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Owned
       - Media
   /library/{user_id}/jingles/owned:
@@ -102,6 +105,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Owned
       - Media
   /library/{user_id}/loops/owned:
@@ -124,6 +128,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Owned
       - Media
   /library/{user_id}/songs/owned:
@@ -146,6 +151,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Owned
       - Media
   /library/{user_id}/soundtracks/owned:
@@ -168,6 +174,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Owned
       - Media
 x-streamrank:

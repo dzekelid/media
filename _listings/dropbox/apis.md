@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Media
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dropbox Core Returns a link directly to a file.
-  x-api-slug: dropbox-core
+- name: Dropbox Core API v1 - Returns a link directly to a file.
+  x-api-slug: mediarootpath-post
   description: |-
     Returns a link directly to a file.
 
@@ -25,47 +25,34 @@ apis:
     a connection open indefinitely.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//media/{root}/{path}
-  tags: Storage,Documents,Media,Root,Path
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/mediarootpath-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/mediarootpath-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/openapi.md
-- name: Dropbox Datastore API Add Media
-  x-api-slug: dropbox-datastore-api
+- name: Dropbox - Add Media
+  x-api-slug: media-post
   description: /media
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//media
-  tags: Media
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/media-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/media-post-openapi.md
-- name: Dropbox Datastore API
-  x-api-slug: dropbox-datastore-api
-  description: Keep your apps structured data in sync with Dropbox
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/dropbox/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://donorschoose.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dropbox.stack.network
 - type: x-application-management
   url: https://www.dropbox.com/developers/apps
 - type: x-base

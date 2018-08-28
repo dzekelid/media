@@ -1,5 +1,6 @@
 ---
 name: Slack
+x-slug: slack
 description: Slack is a team communication application providing services such as
   real-time messaging, archiving, and to search for modern teams. It offers one-on-one
   messaging, private groups, persistent chat rooms, and direct messaging as well as
@@ -8,39 +9,20 @@ description: Slack is a team communication application providing services such a
   Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Road Map
-- My API Stack
-- Messaging API
-- Messaging
-- Media
-- Indie EdTech Data Jam
-- Imports
-- Getting Started
-- Communications
-- Collaboration
-- Chat
-- Change Log Example
-- Change Log
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/slack/apis.yaml
+x-alexaRank: "0"
+tags: Media
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/slack/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Slack
-  description: Slack is a team communication application providing services such as
-    real-time messaging, archiving, and to search for modern teams
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
-  humanURL: ""
-  baseURL: https://slack.com//api
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/slack/stars-remove-post.md
+apis: []
 x-common:
+- type: x-website
+  url: https://api.slack.com
+- type: x-api-gallery
+  url: http://site24x7.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://slack.stack.network
 - type: x-application-gallery
   url: https://slack.com/apps
 - type: x-blog
@@ -99,6 +81,8 @@ x-common:
   url: https://slack.com/transparency-report
 - type: x-twitter
   url: https://twitter.com/slackapi
+- type: x-website
+  url: http://slack.com
 - type: x-website
   url: https://slack.com
 include: []

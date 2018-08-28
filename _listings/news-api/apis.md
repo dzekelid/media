@@ -1,31 +1,22 @@
 ---
 name: News API
+x-slug: news-api
 description: Get live article metadata from a range of sources including BBC News,
   TechCrunch, Huffington Post and more with our free News API.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-newsapi-org.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-news-api.jpg
 x-kinRank: "9"
-x-alexaRank: "149236"
-tags:
-- SaaS
-- Publishing
-- News
-- Media
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/news-api/apis.yaml
+x-alexaRank: "120829"
+tags: Media
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/news-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: News API
-  description: Get live article metadata from a range of sources including BBC News,
-    TechCrunch, Huffington Post and more with our free News API
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-newsapi-org.jpg
-  humanURL: ""
-  baseURL: https://newsapi.org/v2/
-  tags: Media
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/media/master/_listings/news-api/sources-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://new.relic.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://news.api.stack.network
 - type: x-email
   url: support@newsapi.org
 - type: x-twitter

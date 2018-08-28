@@ -567,18 +567,6 @@ paths:
       - Media
       - Id
       - YoutubeMetaData
-  /resources/mediaTypes.json:
-    get:
-      summary: Get MediaTypes
-      description: Returns the list of available MediaTypes.
-      operationId: getMediaTypes
-      x-api-path-slug: resourcesmediatypes-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Resources
-      - MediaTypes
   /resources/tags/{id}/media.json:
     get:
       summary: Get MediaItems for Tag
