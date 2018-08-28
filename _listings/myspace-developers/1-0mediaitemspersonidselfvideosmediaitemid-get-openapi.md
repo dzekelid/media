@@ -59,17 +59,50 @@ paths:
       - Self
       - AlbumId
       - MediaItemId
-  /1.0/mediaItems/{personId}/@videos/@supportedcategories/{categoryId}:
+  /1.0/mediaItems/@supportedFields:
     get:
-      summary: Get Mediaitems Personid Videos Supported Categories Categoryid
-      description: Retrieves videos for Category.
-      operationId: 1.0.mediaItems.personId._videos._supportedcategories.categoryId.get
-      x-api-path-slug: 1-0mediaitemspersonidvideossupportedcategoriescategoryid-get
+      summary: Get Mediaitems Supported Fields
+      description: Retrieves all supported fields.
+      operationId: 1.0.mediaItems._supportedFields.get
+      x-api-path-slug: 1-0mediaitemssupportedfields-get
       parameters:
-      - in: path
-        name: categoryId
-        description: Indicates the video category about which you want to retrieve
-          data
+      - in: query
+        name: count
+        description: Only returns the nearest multiple of 3 compared to the original
+          value
+      - in: query
+        name: fields
+        description: The following field names are supported
+      - in: query
+        name: format
+        description: Determines the format of the response
+      - in: query
+        name: msPrivacyLevel
+        description: MySpace specific field
+      - in: query
+        name: startIndex
+        description: Indicates the index of the first item to retrieve from the query
+          set
+      responses:
+        200:
+          description: OK
+      tags:
+      - MediaItems
+      - Supported
+      - Fields
+  /1.0/mediaItems/{personId}/@self/@videos:
+    post:
+      summary: Post Mediaitems Personid Self Videos
+      description: Adds videos from a specified album.
+      operationId: 1.0.mediaItems.personId._self._videos.post
+      x-api-path-slug: 1-0mediaitemspersonidselfvideos-post
+      parameters:
+      - in: query
+        name: Content-Type
+        description: Specifies Content Type
+      - in: header
+        name: Content-Type
+        description: Specifies Content Type
       - in: query
         name: count
         description: Only returns the nearest multiple of 3 compared to the original
@@ -96,16 +129,13 @@ paths:
       tags:
       - MediaItems
       - People
+      - Self
       - '@videos'
-      - Supported
-      - categories
-      - CategoryId
-  /1.0/mediaItems/{personId}/@videos/@supportedcategories:
     get:
-      summary: Get Mediaitems Personid Videos Supported Categories
-      description: Retrieves supported categories.
-      operationId: 1.0.mediaItems.personId._videos._supportedcategories.get
-      x-api-path-slug: 1-0mediaitemspersonidvideossupportedcategories-get
+      summary: Get Mediaitems Personid Self Videos
+      description: Retrieves all the videos.
+      operationId: 1.0.mediaItems.personId._self._videos.get
+      x-api-path-slug: 1-0mediaitemspersonidselfvideos-get
       parameters:
       - in: query
         name: count
@@ -133,9 +163,8 @@ paths:
       tags:
       - MediaItems
       - People
+      - Self
       - '@videos'
-      - Supported
-      - categories
   /1.0/mediaItems/{personId}/@self/@videos/{mediaItemId}:
     put:
       summary: Put Mediaitems Personid Self Videos Mediaitemid

@@ -12,48 +12,42 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Media
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instagram Instagram Media Comments
-  x-api-slug: instagram
-  description: Instagram Media Comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
-  humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-media-id&#125;/comments
-  tags: Instagram,Media,Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/123instagrammediaid125comments-get-openapi.md
-- name: Instagram Instagram Media
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram Media
+  x-api-slug: 123instagrammediaid125-get
   description: Instagram Media
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-media-id&#125;
-  tags: Instagram,Media
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/123instagrammediaid125-get-openapi.md
-- name: Instagram
-  x-api-slug: instagram
-  description: Instagram is an online mobile photo-sharing, video-sharing and social
-    networking service that enables its users to take pictures and videos, and share
-    them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
-    and Flickr. A distinctive feature is that it confines photos to a square shape,
-    similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect
-    ratio typically used by mobile device cameras. Users can also apply digital filters
-    to their images. The maximum duration for Instagram videos is 15 seconds.
+- name: Instagram Graph API - Instagram Media Comments
+  x-api-slug: 123instagrammediaid125comments-get
+  description: Instagram Media Comments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
   baseURL: https://graph.facebook.com//v3.0
-  tags: Media
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/media/master/_listings/instagram/123instagrammediaid125comments-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://infermedica.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instagram.stack.network
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
 - type: x-authentication
